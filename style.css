@@ -1,0 +1,61 @@
+:root {
+    --light-color: #F8F8FF;
+    --light-color-hover: #d0d0d0;
+    --dark-color: #202020;
+    --red-logo: #800000;
+    --red-dark-transparent: rgba(128, 0, 0, 0.65);
+    --red-dark: #610000;
+    --border-color: rgba(255, 255, 255, 0.25);
+    --transition-duration: 0.44s;
+    font-size: 16px;
+    letter-spacing: .04rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--red-logo);
+}
+
+.section {
+    height: 100%;
+}
+
+.section1 {
+    background-image: url('imagens/ANBDBQM.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: var(--light-color);
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 32vh;
+    padding: 2vh;
+    align-items: center;
+}
+
+.laboria-logo {
+    color: var(--light-color);
+    height: 28vh;
+}
+
+.laboria-logo:hover {
+    color: var(--light-color-hover);
+    transform: scale(1.01);
+}
+
+.social-logo {
+    color: var(--light-color);
+    height: 7vh;
+}
+
+.social-logo:hover {
+    color: var(--light-color-hover);
+    transform: scale(1.06);
+}
